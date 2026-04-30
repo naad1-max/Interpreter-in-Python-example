@@ -1,10 +1,11 @@
-from interp import run
+from interp import run, Interpreter
 
 while True:
     to_run = input(">>> ")
 
     if to_run != "exit":
-        run(to_run)
+        interp = Interpreter()
+        run(to_run, interp)
     
     else:
         break

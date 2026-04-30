@@ -6,7 +6,7 @@ Math 2 + 3
 
 import string
 
-# Error
+# Errors
 
 class Error:
     def __init__(self, line, col, error):
@@ -50,19 +50,19 @@ NUMBERS = string.digits
 LETTERS = string.ascii_letters + "_"
 ALPHANUM = LETTERS + NUMBERS
 
-PRINT   = "PRINT"
-STRING  = "STRING"
-MATH    = "MATH"
-NUM     = "NUM"
-PLUS    = "PLUS"
-MINUS   = "MINUS"
-MUL     = "MUL"
-DIV     = "DIV"
-EOP     = "EOP" # End Of Program
-IDENTIFIER = "IDENTIFIER"
-ASSIGN = "ASSIGN"
-LPAREN = "LPAREN"
-RPAREN = "RPAREN"
+PRINT       = "PRINT"
+STRING      = "STRING"
+MATH        = "MATH"
+NUM         = "NUM"
+PLUS        = "PLUS"
+MINUS       = "MINUS"
+MUL         = "MUL"
+DIV         = "DIV"
+EOP         = "EOP" # End Of Program
+IDENTIFIER  = "IDENTIFIER"
+ASSIGN      = "ASSIGN"
+LPAREN      = "LPAREN"
+RPAREN      = "RPAREN"
 
 # Tokenizer
 
@@ -400,3 +400,4 @@ if __name__ == "__main__":
     source = """PRINT 'Hello, World!'
 MATH 2 + 3"""
     run(source, interpreter)
+
