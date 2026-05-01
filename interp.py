@@ -400,4 +400,7 @@ if __name__ == "__main__":
     source = """PRINT 'Hello, World!'
 MATH 2 + 3"""
     run(source, interpreter)
-
+else:
+    import sys
+    interpreter = Interpreter()
+    run(sys.argv[1], interpreter)
