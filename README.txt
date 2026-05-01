@@ -11,7 +11,6 @@ SIMPLE INTERPRETER IN PYTHON
 
 -> Usage
 * Start the shell with shell.py. Type in "PRINT 'Hello, world!'" OR "MATH 2 + 3" OR "MATH 10 / 5", etc.
-* There's NO PARENTHESES SUPPORT YET.
 ----
 
 -> Links
