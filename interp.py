@@ -403,4 +403,4 @@ MATH 2 + 3"""
 else:
     import sys
     interpreter = Interpreter()
-    run(sys.argv[1], interpreter)
+    run(open(sys.argv[1]).read(), interpreter)
